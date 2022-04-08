@@ -29,6 +29,8 @@ if __name__ == '__main__':
     wfdb.get_record_list('mitdb')
     wfdb.io.dl_database('mitdb', r'./data/mitdb', records='all', annotators='all', keep_subdirs=True, overwrite=False)
 
+    # read signal
+    signals, fields = wfdb.rdsamp('./data/mitdb/100', sampfrom=800)
 
     # 讀取本地的100號記錄，從0到25000，通道0
     record = wfdb.rdrecord('./data/mitdb/100', sampfrom=0, sampto=25000, physical=False, channels=[0, ])
