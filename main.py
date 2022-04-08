@@ -6,6 +6,9 @@ import matplotlib.pyplot as plt
 # 1. https://kknews.cc/code/amrjjrj.html
 # 2. https://stackoverflow.com/questions/58300602/how-to-download-databases-using-wfdb-package
 
+# API:
+# 1. https://wfdb.readthedocs.io/en/latest/
+
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
